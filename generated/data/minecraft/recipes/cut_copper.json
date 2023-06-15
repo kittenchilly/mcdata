@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:copper_block"
@@ -12,5 +13,6 @@
   "result": {
     "count": 4,
     "item": "minecraft:cut_copper"
-  }
+  },
+  "show_notification": true
 }

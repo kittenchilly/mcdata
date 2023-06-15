@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:glass"
@@ -12,5 +13,6 @@
   "result": {
     "count": 3,
     "item": "minecraft:glass_bottle"
-  }
+  },
+  "show_notification": true
 }

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:wheat"
@@ -10,5 +11,6 @@
   ],
   "result": {
     "item": "minecraft:bread"
-  }
+  },
+  "show_notification": true
 }

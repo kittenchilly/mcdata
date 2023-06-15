@@ -2,6 +2,7 @@
   "values": [
     "minecraft:blasting",
     "minecraft:campfire_cooking",
+    "minecraft:crafting_decorated_pot",
     "minecraft:crafting_shaped",
     "minecraft:crafting_shapeless",
     "minecraft:crafting_special_armordye",
@@ -18,7 +19,8 @@
     "minecraft:crafting_special_suspiciousstew",
     "minecraft:crafting_special_tippedarrow",
     "minecraft:smelting",
-    "minecraft:smithing",
+    "minecraft:smithing_transform",
+    "minecraft:smithing_trim",
     "minecraft:smoking",
     "minecraft:stonecutting"
   ]

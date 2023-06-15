@@ -1,4 +1,5 @@
 {
+  "category": "misc",
   "key": {
     "E": {
       "item": "minecraft:ender_eye"
@@ -18,5 +19,6 @@
   "result": {
     "item": "minecraft:end_crystal"
   },
+  "show_notification": true,
   "type": "minecraft:crafting_shaped"
 }

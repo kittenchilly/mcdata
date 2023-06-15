@@ -5,7 +5,12 @@
         "damage": {
           "blocked": true,
           "type": {
-            "is_projectile": true
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
           }
         }
       },
@@ -33,5 +38,6 @@
     [
       "deflected_projectile"
     ]
-  ]
+  ],
+  "sends_telemetry_event": true
 }

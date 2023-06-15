@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "key": {
     "C": {
       "item": "minecraft:prismarine_crystals"
@@ -15,5 +16,6 @@
   ],
   "result": {
     "item": "minecraft:sea_lantern"
-  }
+  },
+  "show_notification": true
 }

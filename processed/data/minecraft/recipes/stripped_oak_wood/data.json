@@ -1,4 +1,5 @@
 {
+  "category": "building",
   "group": "bark",
   "key": {
     "#": {
@@ -13,5 +14,6 @@
     "count": 3,
     "item": "minecraft:stripped_oak_wood"
   },
+  "show_notification": true,
   "type": "minecraft:crafting_shaped"
 }

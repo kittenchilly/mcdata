@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:torch"
@@ -15,5 +16,6 @@
   ],
   "result": {
     "item": "minecraft:lantern"
-  }
+  },
+  "show_notification": true
 }

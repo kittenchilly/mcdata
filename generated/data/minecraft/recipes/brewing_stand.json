@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "tag": "minecraft:stone_crafting_materials"
@@ -14,5 +15,6 @@
   ],
   "result": {
     "item": "minecraft:brewing_stand"
-  }
+  },
+  "show_notification": true
 }

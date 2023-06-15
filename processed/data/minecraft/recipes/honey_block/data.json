@@ -1,15 +1,17 @@
 {
+  "category": "redstone",
   "key": {
-    "S": {
+    "#": {
       "item": "minecraft:honey_bottle"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "##",
+    "##"
   ],
   "result": {
     "item": "minecraft:honey_block"
   },
+  "show_notification": true,
   "type": "minecraft:crafting_shaped"
 }

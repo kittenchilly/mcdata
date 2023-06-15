@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "group": "bed",
   "key": {
     "#": {
@@ -15,5 +16,6 @@
   ],
   "result": {
     "item": "minecraft:cyan_bed"
-  }
+  },
+  "show_notification": true
 }

@@ -1,5 +1,6 @@
 minecraft:axolotl_attackables
 minecraft:axolotl_temptations
+minecraft:camel_temptations
 minecraft:dummy
 minecraft:frog_attackables
 minecraft:frog_temptations
@@ -16,6 +17,7 @@ minecraft:nearest_players
 minecraft:piglin_brute_specific_sensor
 minecraft:piglin_specific_sensor
 minecraft:secondary_pois
+minecraft:sniffer_temptations
 minecraft:villager_babies
 minecraft:villager_hostiles
 minecraft:warden_entity_sensor

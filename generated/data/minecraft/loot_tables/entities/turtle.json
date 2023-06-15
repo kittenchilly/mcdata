@@ -37,7 +37,12 @@
         {
           "condition": "minecraft:damage_source_properties",
           "predicate": {
-            "is_lightning": true
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_lightning"
+              }
+            ]
           }
         }
       ],
@@ -49,5 +54,6 @@
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/turtle"
 }

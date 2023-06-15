@@ -8,6 +8,7 @@ minecraft:bubble_column_up
 minecraft:bubble_pop
 minecraft:campfire_cosy_smoke
 minecraft:campfire_signal_smoke
+minecraft:cherry_leaves
 minecraft:cloud
 minecraft:composter
 minecraft:crimson_spore
@@ -25,6 +26,7 @@ minecraft:dripping_water
 minecraft:dust
 minecraft:dust_color_transition
 minecraft:effect
+minecraft:egg_crack
 minecraft:elder_guardian
 minecraft:electric_spark
 minecraft:enchant

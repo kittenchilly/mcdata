@@ -1,4 +1,5 @@
 {
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:brick"
@@ -11,5 +12,6 @@
   "result": {
     "item": "minecraft:bricks"
   },
+  "show_notification": true,
   "type": "minecraft:crafting_shaped"
 }

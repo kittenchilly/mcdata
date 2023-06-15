@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:slime_ball"
@@ -12,5 +13,6 @@
   ],
   "result": {
     "item": "minecraft:slime_block"
-  }
+  },
+  "show_notification": true
 }

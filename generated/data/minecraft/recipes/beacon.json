@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "G": {
       "item": "minecraft:glass"
@@ -18,5 +19,6 @@
   ],
   "result": {
     "item": "minecraft:beacon"
-  }
+  },
+  "show_notification": true
 }

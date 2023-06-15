@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:sugar_cane"
@@ -11,5 +12,6 @@
   "result": {
     "count": 3,
     "item": "minecraft:paper"
-  }
+  },
+  "show_notification": true
 }

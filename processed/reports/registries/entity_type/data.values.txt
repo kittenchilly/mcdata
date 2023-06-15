@@ -6,7 +6,9 @@ minecraft:axolotl
 minecraft:bat
 minecraft:bee
 minecraft:blaze
+minecraft:block_display
 minecraft:boat
+minecraft:camel
 minecraft:cat
 minecraft:cave_spider
 minecraft:chest_boat
@@ -50,8 +52,10 @@ minecraft:hopper_minecart
 minecraft:horse
 minecraft:husk
 minecraft:illusioner
+minecraft:interaction
 minecraft:iron_golem
 minecraft:item
+minecraft:item_display
 minecraft:item_frame
 minecraft:leash_knot
 minecraft:lightning_bolt
@@ -86,6 +90,7 @@ minecraft:skeleton
 minecraft:skeleton_horse
 minecraft:slime
 minecraft:small_fireball
+minecraft:sniffer
 minecraft:snow_golem
 minecraft:snowball
 minecraft:spawner_minecart
@@ -95,6 +100,7 @@ minecraft:squid
 minecraft:stray
 minecraft:strider
 minecraft:tadpole
+minecraft:text_display
 minecraft:tnt
 minecraft:tnt_minecart
 minecraft:trader_llama

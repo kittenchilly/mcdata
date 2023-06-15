@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:redstone"
@@ -12,5 +13,6 @@
   ],
   "result": {
     "item": "minecraft:redstone_block"
-  }
+  },
+  "show_notification": true
 }

@@ -100,7 +100,7 @@
         {
           "conditions": [
             {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:location_check",
@@ -131,5 +131,6 @@
       "rolls": 1.0
     }
   ],
+  "random_sequence": "minecraft:gameplay/fishing/junk",
   "type": "minecraft:fishing"
 }

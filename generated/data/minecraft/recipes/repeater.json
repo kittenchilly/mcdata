@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"
@@ -17,5 +18,6 @@
   ],
   "result": {
     "item": "minecraft:repeater"
-  }
+  },
+  "show_notification": true
 }

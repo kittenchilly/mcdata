@@ -1,14 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "S": {
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
       "item": "minecraft:disc_fragment_5"
     }
-  },
-  "pattern": [
-    "SSS",
-    "SSS",
-    "SSS"
   ],
   "result": {
     "item": "minecraft:music_disc_5"

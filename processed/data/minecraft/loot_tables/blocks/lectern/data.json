@@ -9,12 +9,6 @@
       ],
       "entries": [
         {
-          "functions": [
-            {
-              "function": "minecraft:copy_name",
-              "source": "block_entity"
-            }
-          ],
           "name": "minecraft:lectern",
           "type": "minecraft:item"
         }
@@ -22,5 +16,6 @@
       "rolls": 1.0
     }
   ],
+  "random_sequence": "minecraft:blocks/lectern",
   "type": "minecraft:block"
 }

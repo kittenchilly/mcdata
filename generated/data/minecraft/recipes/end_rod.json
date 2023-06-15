@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:popped_chorus_fruit"
@@ -15,5 +16,6 @@
   "result": {
     "count": 4,
     "item": "minecraft:end_rod"
-  }
+  },
+  "show_notification": true
 }

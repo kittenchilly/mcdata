@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:fishing_rod"
@@ -14,5 +15,6 @@
   ],
   "result": {
     "item": "minecraft:carrot_on_a_stick"
-  }
+  },
+  "show_notification": true
 }

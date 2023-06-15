@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "tag": "minecraft:logs"
@@ -15,5 +16,6 @@
   ],
   "result": {
     "item": "minecraft:smoker"
-  }
+  },
+  "show_notification": true
 }

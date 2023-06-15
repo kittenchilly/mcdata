@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "key": {
     "D": {
       "item": "minecraft:dirt"
@@ -15,5 +16,6 @@
   "result": {
     "count": 4,
     "item": "minecraft:coarse_dirt"
-  }
+  },
+  "show_notification": true
 }

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "pointed_dripstone",
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:pointed_dripstone"
@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "minecraft:dripstone_block"
-  }
+  },
+  "show_notification": true
 }
