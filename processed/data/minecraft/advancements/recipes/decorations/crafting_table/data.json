@@ -7,15 +7,14 @@
       "trigger": "minecraft:recipe_unlocked"
     },
     "unlock_right_away": {
-      "conditions": {},
       "trigger": "minecraft:tick"
     }
   },
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "unlock_right_away",
-      "has_the_recipe"
+      "has_the_recipe",
+      "unlock_right_away"
     ]
   ],
   "rewards": {
