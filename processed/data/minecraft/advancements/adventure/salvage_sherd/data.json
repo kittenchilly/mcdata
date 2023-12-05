@@ -48,17 +48,13 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.salvage_sherd.description"
     },
-    "frame": "task",
-    "hidden": false,
     "icon": {
       "item": "minecraft:brush",
       "nbt": "{Damage:0}"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.salvage_sherd.title"
     }
@@ -66,12 +62,12 @@
   "parent": "minecraft:adventure/root",
   "requirements": [
     [
-      "ocean_ruin_cold",
       "desert_pyramid",
-      "ocean_ruin_warm",
-      "trail_ruins_common",
       "desert_well",
-      "trail_ruins_rare"
+      "ocean_ruin_cold",
+      "ocean_ruin_warm",
+      "trail_ruins_rare",
+      "trail_ruins_common"
     ],
     [
       "has_sherd"

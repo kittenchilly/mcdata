@@ -14,6 +14,7 @@ minecraft:chiseled_bookshelf
 minecraft:command_block
 minecraft:comparator
 minecraft:conduit
+minecraft:crafter
 minecraft:daylight_detector
 minecraft:decorated_pot
 minecraft:dispenser
@@ -39,3 +40,4 @@ minecraft:skull
 minecraft:smoker
 minecraft:structure_block
 minecraft:trapped_chest
+minecraft:trial_spawner

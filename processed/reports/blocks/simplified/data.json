@@ -3210,6 +3210,10 @@
       ]
     }
   },
+  "minecraft:chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:chiseled_deepslate": {
     "default": {},
     "properties": {}
@@ -3235,6 +3239,14 @@
     "properties": {}
   },
   "minecraft:chiseled_stone_bricks": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:chiseled_tuff": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:chiseled_tuff_bricks": {
     "default": {},
     "properties": {}
   },
@@ -3588,9 +3600,102 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
   "minecraft:copper_ore": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:cornflower": {
     "default": {},
@@ -3615,6 +3720,37 @@
   "minecraft:cracked_stone_bricks": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:crafter": {
+    "default": {
+      "crafting": "false",
+      "orientation": "north_up",
+      "triggered": "false"
+    },
+    "properties": {
+      "crafting": [
+        "true",
+        "false"
+      ],
+      "orientation": [
+        "down_east",
+        "down_north",
+        "down_south",
+        "down_west",
+        "up_east",
+        "up_north",
+        "up_south",
+        "up_west",
+        "west_up",
+        "east_up",
+        "north_up",
+        "south_up"
+      ],
+      "triggered": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:crafting_table": {
     "default": {},
@@ -5648,9 +5784,106 @@
       ]
     }
   },
+  "minecraft:exposed_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:exposed_copper": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:exposed_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:exposed_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:exposed_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:exposed_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:exposed_cut_copper": {
     "default": {},
@@ -6075,10 +6308,6 @@
         "tall"
       ]
     }
-  },
-  "minecraft:grass": {
-    "default": {},
-    "properties": {}
   },
   "minecraft:grass_block": {
     "default": {
@@ -9816,9 +10045,106 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:oxidized_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:oxidized_copper": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:oxidized_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:oxidized_cut_copper": {
     "default": {},
@@ -10804,6 +11130,98 @@
       "waterlogged": [
         "true",
         "false"
+      ]
+    }
+  },
+  "minecraft:polished_tuff": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:polished_tuff_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:polished_tuff_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:polished_tuff_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
       ]
     }
   },
@@ -12375,6 +12793,10 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:short_grass": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:shroomlight": {
     "default": {},
     "properties": {}
@@ -13849,6 +14271,21 @@
       ]
     }
   },
+  "minecraft:trial_spawner": {
+    "default": {
+      "trial_spawner_state": "inactive"
+    },
+    "properties": {
+      "trial_spawner_state": [
+        "inactive",
+        "waiting_for_players",
+        "active",
+        "waiting_for_reward_ejection",
+        "ejecting_reward",
+        "cooldown"
+      ]
+    }
+  },
   "minecraft:tripwire": {
     "default": {
       "attached": "false",
@@ -13960,6 +14397,186 @@
   "minecraft:tuff": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:tuff_brick_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:tuff_brick_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:tuff_brick_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
+  },
+  "minecraft:tuff_bricks": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:tuff_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:tuff_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:tuff_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
   },
   "minecraft:turtle_egg": {
     "default": {
@@ -14469,9 +15086,106 @@
       ]
     }
   },
+  "minecraft:waxed_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:waxed_copper_block": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:waxed_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:waxed_cut_copper": {
     "default": {},
@@ -14525,9 +15239,106 @@
       ]
     }
   },
+  "minecraft:waxed_exposed_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:waxed_exposed_copper": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:waxed_exposed_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:waxed_exposed_cut_copper": {
     "default": {},
@@ -14581,9 +15392,106 @@
       ]
     }
   },
+  "minecraft:waxed_oxidized_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:waxed_oxidized_copper": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:waxed_oxidized_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:waxed_oxidized_cut_copper": {
     "default": {},
@@ -14637,9 +15545,106 @@
       ]
     }
   },
+  "minecraft:waxed_weathered_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:waxed_weathered_copper": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:waxed_weathered_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:waxed_weathered_cut_copper": {
     "default": {},
@@ -14693,9 +15698,106 @@
       ]
     }
   },
+  "minecraft:weathered_chiseled_copper": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:weathered_copper": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:weathered_copper_bulb": {
+    "default": {
+      "lit": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:weathered_copper_door": {
+    "default": {
+      "facing": "north",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false",
+      "powered": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:weathered_copper_grate": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:weathered_copper_trapdoor": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "open": "false",
+      "powered": "false",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "open": [
+        "true",
+        "false"
+      ],
+      "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:weathered_cut_copper": {
     "default": {},
