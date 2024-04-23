@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:blaze_rod"
-            ]
+            "items": "minecraft:blaze_rod"
           }
         ]
       },
@@ -19,7 +17,8 @@
       "translate": "advancements.nether.obtain_blaze_rod.description"
     },
     "icon": {
-      "item": "minecraft:blaze_rod"
+      "count": 1,
+      "id": "minecraft:blaze_rod"
     },
     "title": {
       "translate": "advancements.nether.obtain_blaze_rod.title"

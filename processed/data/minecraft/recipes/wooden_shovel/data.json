@@ -14,7 +14,8 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:wooden_shovel"
+    "count": 1,
+    "id": "minecraft:wooden_shovel"
   },
   "type": "minecraft:crafting_shaped"
 }

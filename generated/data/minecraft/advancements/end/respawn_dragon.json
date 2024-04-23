@@ -22,7 +22,8 @@
     },
     "frame": "goal",
     "icon": {
-      "item": "minecraft:end_crystal"
+      "count": 1,
+      "id": "minecraft:end_crystal"
     },
     "title": {
       "translate": "advancements.end.respawn_dragon.title"

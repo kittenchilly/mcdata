@@ -10,7 +10,8 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:purpur_pillar"
+    "count": 1,
+    "id": "minecraft:purpur_pillar"
   },
   "type": "minecraft:crafting_shaped"
 }

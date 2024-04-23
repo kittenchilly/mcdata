@@ -14,6 +14,7 @@
     "B"
   ],
   "result": {
-    "item": "minecraft:jack_o_lantern"
+    "count": 1,
+    "id": "minecraft:jack_o_lantern"
   }
 }

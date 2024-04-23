@@ -18,7 +18,8 @@
     },
     "frame": "challenge",
     "icon": {
-      "item": "minecraft:map"
+      "count": 1,
+      "id": "minecraft:map"
     },
     "title": {
       "translate": "advancements.nether.fast_travel.title"

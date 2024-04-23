@@ -13,7 +13,8 @@
     "P"
   ],
   "result": {
-    "item": "minecraft:sticky_piston"
+    "count": 1,
+    "id": "minecraft:sticky_piston"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -9,7 +9,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:flower_banner_pattern"
+    "count": 1,
+    "id": "minecraft:flower_banner_pattern"
   },
   "type": "minecraft:crafting_shapeless"
 }

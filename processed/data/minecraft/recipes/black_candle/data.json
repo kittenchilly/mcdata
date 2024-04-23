@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:black_candle"
+    "count": 1,
+    "id": "minecraft:black_candle"
   },
   "type": "minecraft:crafting_shapeless"
 }

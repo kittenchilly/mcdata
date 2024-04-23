@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:glistering_melon_slice"
+    "count": 1,
+    "id": "minecraft:glistering_melon_slice"
   },
   "type": "minecraft:crafting_shaped"
 }

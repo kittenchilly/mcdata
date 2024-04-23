@@ -14,7 +14,8 @@
     " W "
   ],
   "result": {
-    "item": "minecraft:shield"
+    "count": 1,
+    "id": "minecraft:shield"
   },
   "type": "minecraft:crafting_shaped"
 }

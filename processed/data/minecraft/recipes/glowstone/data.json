@@ -10,7 +10,8 @@
     "##"
   ],
   "result": {
-    "item": "minecraft:glowstone"
+    "count": 1,
+    "id": "minecraft:glowstone"
   },
   "type": "minecraft:crafting_shaped"
 }

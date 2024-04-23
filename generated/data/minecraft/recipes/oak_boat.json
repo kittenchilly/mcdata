@@ -12,6 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:oak_boat"
+    "count": 1,
+    "id": "minecraft:oak_boat"
   }
 }

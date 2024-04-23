@@ -14,7 +14,8 @@
     "#R#"
   ],
   "result": {
-    "item": "minecraft:dropper"
+    "count": 1,
+    "id": "minecraft:dropper"
   },
   "type": "minecraft:crafting_shaped"
 }

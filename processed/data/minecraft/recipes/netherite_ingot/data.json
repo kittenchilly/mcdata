@@ -28,7 +28,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:netherite_ingot"
+    "count": 1,
+    "id": "minecraft:netherite_ingot"
   },
   "type": "minecraft:crafting_shapeless"
 }

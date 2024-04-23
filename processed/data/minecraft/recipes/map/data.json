@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:map"
+    "count": 1,
+    "id": "minecraft:map"
   },
   "type": "minecraft:crafting_shaped"
 }

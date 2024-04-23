@@ -1,8 +1,10 @@
 {
-  "count": 1,
   "ingredient": {
     "item": "minecraft:blackstone"
   },
-  "result": "minecraft:blackstone_wall",
+  "result": {
+    "count": 1,
+    "id": "minecraft:blackstone_wall"
+  },
   "type": "minecraft:stonecutting"
 }

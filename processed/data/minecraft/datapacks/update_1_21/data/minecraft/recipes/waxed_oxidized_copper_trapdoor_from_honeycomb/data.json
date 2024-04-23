@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:waxed_oxidized_copper_trapdoor"
+    "count": 1,
+    "id": "minecraft:waxed_oxidized_copper_trapdoor"
   },
   "type": "minecraft:crafting_shapeless"
 }

@@ -10,7 +10,8 @@
       "translate": "advancements.husbandry.breed_an_animal.description"
     },
     "icon": {
-      "item": "minecraft:wheat"
+      "count": 1,
+      "id": "minecraft:wheat"
     },
     "title": {
       "translate": "advancements.husbandry.breed_an_animal.title"

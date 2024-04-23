@@ -14,7 +14,8 @@
     "#W#"
   ],
   "result": {
-    "item": "minecraft:jungle_fence_gate"
+    "count": 1,
+    "id": "minecraft:jungle_fence_gate"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -12,7 +12,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:gold_ingot"
+    "count": 1,
+    "id": "minecraft:gold_ingot"
   },
   "type": "minecraft:crafting_shaped"
 }

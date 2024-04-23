@@ -21,7 +21,8 @@
       "translate": "advancements.husbandry.kill_axolotl_target.description"
     },
     "icon": {
-      "item": "minecraft:tropical_fish_bucket"
+      "count": 1,
+      "id": "minecraft:tropical_fish_bucket"
     },
     "title": {
       "translate": "advancements.husbandry.kill_axolotl_target.title"

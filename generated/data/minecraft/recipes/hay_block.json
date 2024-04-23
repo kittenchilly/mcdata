@@ -31,6 +31,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:hay_block"
+    "count": 1,
+    "id": "minecraft:hay_block"
   }
 }

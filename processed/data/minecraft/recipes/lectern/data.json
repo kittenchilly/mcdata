@@ -14,7 +14,8 @@
     " S "
   ],
   "result": {
-    "item": "minecraft:lectern"
+    "count": 1,
+    "id": "minecraft:lectern"
   },
   "type": "minecraft:crafting_shaped"
 }

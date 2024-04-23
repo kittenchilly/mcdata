@@ -83,7 +83,8 @@
       "translate": "advancements.husbandry.plant_seed.description"
     },
     "icon": {
-      "item": "minecraft:wheat"
+      "count": 1,
+      "id": "minecraft:wheat"
     },
     "title": {
       "translate": "advancements.husbandry.plant_seed.title"

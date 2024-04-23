@@ -10,7 +10,8 @@
       "translate": "advancements.husbandry.tame_an_animal.description"
     },
     "icon": {
-      "item": "minecraft:lead"
+      "count": 1,
+      "id": "minecraft:lead"
     },
     "title": {
       "translate": "advancements.husbandry.tame_an_animal.title"

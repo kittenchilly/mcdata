@@ -10,7 +10,8 @@
     "##"
   ],
   "result": {
-    "item": "minecraft:cherry_pressure_plate"
+    "count": 1,
+    "id": "minecraft:cherry_pressure_plate"
   },
   "type": "minecraft:crafting_shaped"
 }

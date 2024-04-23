@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:ender_chest"
+    "count": 1,
+    "id": "minecraft:ender_chest"
   },
   "type": "minecraft:crafting_shaped"
 }

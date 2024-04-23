@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:waxed_copper_block"
+    "count": 1,
+    "id": "minecraft:waxed_copper_block"
   },
   "type": "minecraft:crafting_shapeless"
 }

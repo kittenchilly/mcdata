@@ -15,7 +15,8 @@
     " | "
   ],
   "result": {
-    "item": "minecraft:light_gray_banner"
+    "count": 1,
+    "id": "minecraft:light_gray_banner"
   },
   "type": "minecraft:crafting_shaped"
 }

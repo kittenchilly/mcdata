@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:bundle"
+    "count": 1,
+    "id": "minecraft:bundle"
   },
   "type": "minecraft:crafting_shaped"
 }

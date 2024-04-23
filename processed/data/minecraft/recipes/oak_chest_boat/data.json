@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:oak_chest_boat"
+    "count": 1,
+    "id": "minecraft:oak_chest_boat"
   },
   "type": "minecraft:crafting_shapeless"
 }

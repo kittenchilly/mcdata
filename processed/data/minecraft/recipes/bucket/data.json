@@ -10,7 +10,8 @@
     " # "
   ],
   "result": {
-    "item": "minecraft:bucket"
+    "count": 1,
+    "id": "minecraft:bucket"
   },
   "type": "minecraft:crafting_shaped"
 }

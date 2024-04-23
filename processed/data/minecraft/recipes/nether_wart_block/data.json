@@ -30,7 +30,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:nether_wart_block"
+    "count": 1,
+    "id": "minecraft:nether_wart_block"
   },
   "type": "minecraft:crafting_shapeless"
 }

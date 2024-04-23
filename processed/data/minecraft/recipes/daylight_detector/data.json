@@ -17,7 +17,8 @@
     "WWW"
   ],
   "result": {
-    "item": "minecraft:daylight_detector"
+    "count": 1,
+    "id": "minecraft:daylight_detector"
   },
   "type": "minecraft:crafting_shaped"
 }

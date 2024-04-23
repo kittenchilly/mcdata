@@ -12,6 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:iron_block"
+    "count": 1,
+    "id": "minecraft:iron_block"
   }
 }

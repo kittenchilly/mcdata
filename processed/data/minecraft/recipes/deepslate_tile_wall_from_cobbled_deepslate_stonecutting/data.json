@@ -1,8 +1,10 @@
 {
-  "count": 1,
   "ingredient": {
     "item": "minecraft:cobbled_deepslate"
   },
-  "result": "minecraft:deepslate_tile_wall",
+  "result": {
+    "count": 1,
+    "id": "minecraft:deepslate_tile_wall"
+  },
   "type": "minecraft:stonecutting"
 }

@@ -11,7 +11,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:jungle_boat"
+    "count": 1,
+    "id": "minecraft:jungle_boat"
   },
   "type": "minecraft:crafting_shaped"
 }

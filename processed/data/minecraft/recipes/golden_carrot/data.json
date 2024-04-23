@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:golden_carrot"
+    "count": 1,
+    "id": "minecraft:golden_carrot"
   },
   "type": "minecraft:crafting_shaped"
 }

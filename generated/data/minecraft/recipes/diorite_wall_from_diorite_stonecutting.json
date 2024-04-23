@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:diorite"
   },
-  "result": "minecraft:diorite_wall"
+  "result": {
+    "count": 1,
+    "id": "minecraft:diorite_wall"
+  }
 }

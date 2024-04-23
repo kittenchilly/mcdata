@@ -18,6 +18,7 @@
     "OOO"
   ],
   "result": {
-    "item": "minecraft:beacon"
+    "count": 1,
+    "id": "minecraft:beacon"
   }
 }

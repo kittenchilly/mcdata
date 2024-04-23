@@ -14,7 +14,8 @@
     "XXX"
   ],
   "result": {
-    "item": "minecraft:brown_bed"
+    "count": 1,
+    "id": "minecraft:brown_bed"
   },
   "type": "minecraft:crafting_shaped"
 }

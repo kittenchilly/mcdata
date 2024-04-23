@@ -9,7 +9,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:trapped_chest"
+    "count": 1,
+    "id": "minecraft:trapped_chest"
   },
   "type": "minecraft:crafting_shapeless"
 }

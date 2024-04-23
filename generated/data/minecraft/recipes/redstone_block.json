@@ -12,6 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:redstone_block"
+    "count": 1,
+    "id": "minecraft:redstone_block"
   }
 }

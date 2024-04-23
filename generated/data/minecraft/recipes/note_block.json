@@ -15,6 +15,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:note_block"
+    "count": 1,
+    "id": "minecraft:note_block"
   }
 }

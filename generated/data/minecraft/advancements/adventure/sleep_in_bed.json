@@ -10,7 +10,8 @@
       "translate": "advancements.adventure.sleep_in_bed.description"
     },
     "icon": {
-      "item": "minecraft:red_bed"
+      "count": 1,
+      "id": "minecraft:red_bed"
     },
     "title": {
       "translate": "advancements.adventure.sleep_in_bed.title"

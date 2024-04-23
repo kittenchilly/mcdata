@@ -10,7 +10,8 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:chiseled_deepslate"
+    "count": 1,
+    "id": "minecraft:chiseled_deepslate"
   },
   "type": "minecraft:crafting_shaped"
 }

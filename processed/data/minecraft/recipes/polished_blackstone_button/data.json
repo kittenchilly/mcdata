@@ -6,7 +6,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:polished_blackstone_button"
+    "count": 1,
+    "id": "minecraft:polished_blackstone_button"
   },
   "type": "minecraft:crafting_shapeless"
 }

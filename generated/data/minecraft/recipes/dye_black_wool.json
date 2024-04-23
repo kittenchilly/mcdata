@@ -55,6 +55,7 @@
     ]
   ],
   "result": {
-    "item": "minecraft:black_wool"
+    "count": 1,
+    "id": "minecraft:black_wool"
   }
 }

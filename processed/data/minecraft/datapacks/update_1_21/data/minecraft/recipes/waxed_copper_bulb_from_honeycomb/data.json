@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:waxed_copper_bulb"
+    "count": 1,
+    "id": "minecraft:waxed_copper_bulb"
   },
   "type": "minecraft:crafting_shapeless"
 }

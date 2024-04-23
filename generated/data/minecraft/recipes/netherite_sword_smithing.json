@@ -7,7 +7,8 @@
     "item": "minecraft:diamond_sword"
   },
   "result": {
-    "item": "minecraft:netherite_sword"
+    "count": 1,
+    "id": "minecraft:netherite_sword"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

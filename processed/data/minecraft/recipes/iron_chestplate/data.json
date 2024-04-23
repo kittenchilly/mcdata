@@ -11,7 +11,8 @@
     "XXX"
   ],
   "result": {
-    "item": "minecraft:iron_chestplate"
+    "count": 1,
+    "id": "minecraft:iron_chestplate"
   },
   "type": "minecraft:crafting_shaped"
 }

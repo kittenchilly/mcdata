@@ -14,7 +14,8 @@
     },
     "frame": "goal",
     "icon": {
-      "item": "minecraft:beacon"
+      "count": 1,
+      "id": "minecraft:beacon"
     },
     "title": {
       "translate": "advancements.nether.create_full_beacon.title"

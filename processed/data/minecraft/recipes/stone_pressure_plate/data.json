@@ -9,7 +9,8 @@
     "##"
   ],
   "result": {
-    "item": "minecraft:stone_pressure_plate"
+    "count": 1,
+    "id": "minecraft:stone_pressure_plate"
   },
   "type": "minecraft:crafting_shaped"
 }

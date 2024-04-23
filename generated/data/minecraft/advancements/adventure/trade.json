@@ -10,7 +10,8 @@
       "translate": "advancements.adventure.trade.description"
     },
     "icon": {
-      "item": "minecraft:emerald"
+      "count": 1,
+      "id": "minecraft:emerald"
     },
     "title": {
       "translate": "advancements.adventure.trade.title"

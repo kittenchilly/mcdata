@@ -14,7 +14,8 @@
     "PPP"
   ],
   "result": {
-    "item": "minecraft:beehive"
+    "count": 1,
+    "id": "minecraft:beehive"
   },
   "type": "minecraft:crafting_shaped"
 }

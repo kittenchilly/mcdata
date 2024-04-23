@@ -11,7 +11,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:bone_block"
+    "count": 1,
+    "id": "minecraft:bone_block"
   },
   "type": "minecraft:crafting_shaped"
 }

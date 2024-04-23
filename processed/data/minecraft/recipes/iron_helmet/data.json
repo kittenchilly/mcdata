@@ -10,7 +10,8 @@
     "X X"
   ],
   "result": {
-    "item": "minecraft:iron_helmet"
+    "count": 1,
+    "id": "minecraft:iron_helmet"
   },
   "type": "minecraft:crafting_shaped"
 }

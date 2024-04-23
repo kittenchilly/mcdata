@@ -54,7 +54,8 @@
     ]
   ],
   "result": {
-    "item": "minecraft:lime_bed"
+    "count": 1,
+    "id": "minecraft:lime_bed"
   },
   "type": "minecraft:crafting_shapeless"
 }

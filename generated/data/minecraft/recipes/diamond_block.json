@@ -12,6 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:diamond_block"
+    "count": 1,
+    "id": "minecraft:diamond_block"
   }
 }

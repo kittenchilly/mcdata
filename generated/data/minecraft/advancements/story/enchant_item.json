@@ -10,7 +10,8 @@
       "translate": "advancements.story.enchant_item.description"
     },
     "icon": {
-      "item": "minecraft:enchanted_book"
+      "count": 1,
+      "id": "minecraft:enchanted_book"
     },
     "title": {
       "translate": "advancements.story.enchant_item.title"

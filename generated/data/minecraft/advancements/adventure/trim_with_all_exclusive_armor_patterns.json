@@ -56,7 +56,8 @@
     },
     "frame": "challenge",
     "icon": {
-      "item": "minecraft:silence_armor_trim_smithing_template"
+      "count": 1,
+      "id": "minecraft:silence_armor_trim_smithing_template"
     },
     "title": {
       "translate": "advancements.adventure.trim_with_all_exclusive_armor_patterns.title"

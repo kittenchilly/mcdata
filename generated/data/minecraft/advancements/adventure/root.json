@@ -14,7 +14,8 @@
       "translate": "advancements.adventure.root.description"
     },
     "icon": {
-      "item": "minecraft:map"
+      "count": 1,
+      "id": "minecraft:map"
     },
     "show_toast": false,
     "title": {

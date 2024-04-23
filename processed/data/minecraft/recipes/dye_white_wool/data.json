@@ -54,7 +54,8 @@
     ]
   ],
   "result": {
-    "item": "minecraft:white_wool"
+    "count": 1,
+    "id": "minecraft:white_wool"
   },
   "type": "minecraft:crafting_shapeless"
 }

@@ -17,7 +17,8 @@
     "LLL"
   ],
   "result": {
-    "item": "minecraft:campfire"
+    "count": 1,
+    "id": "minecraft:campfire"
   },
   "type": "minecraft:crafting_shaped"
 }

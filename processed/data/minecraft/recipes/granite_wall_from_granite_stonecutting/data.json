@@ -1,8 +1,10 @@
 {
-  "count": 1,
   "ingredient": {
     "item": "minecraft:granite"
   },
-  "result": "minecraft:granite_wall",
+  "result": {
+    "count": 1,
+    "id": "minecraft:granite_wall"
+  },
   "type": "minecraft:stonecutting"
 }

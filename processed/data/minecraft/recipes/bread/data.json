@@ -9,7 +9,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:bread"
+    "count": 1,
+    "id": "minecraft:bread"
   },
   "type": "minecraft:crafting_shaped"
 }

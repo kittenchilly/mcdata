@@ -11,7 +11,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:dark_oak_boat"
+    "count": 1,
+    "id": "minecraft:dark_oak_boat"
   },
   "type": "minecraft:crafting_shaped"
 }

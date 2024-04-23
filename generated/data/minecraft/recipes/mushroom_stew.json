@@ -13,6 +13,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:mushroom_stew"
+    "count": 1,
+    "id": "minecraft:mushroom_stew"
   }
 }

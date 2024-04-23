@@ -9,7 +9,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:packed_mud"
+    "count": 1,
+    "id": "minecraft:packed_mud"
   },
   "type": "minecraft:crafting_shapeless"
 }

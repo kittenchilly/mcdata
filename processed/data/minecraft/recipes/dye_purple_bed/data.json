@@ -54,7 +54,8 @@
     ]
   ],
   "result": {
-    "item": "minecraft:purple_bed"
+    "count": 1,
+    "id": "minecraft:purple_bed"
   },
   "type": "minecraft:crafting_shapeless"
 }

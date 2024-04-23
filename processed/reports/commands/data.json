@@ -196,15 +196,15 @@
                               "children": {
                                 "value": {
                                   "children": {
-                                    "add": {
+                                    "add_multiplied_base": {
                                       "executable": true,
                                       "type": "literal"
                                     },
-                                    "multiply": {
+                                    "add_multiplied_total": {
                                       "executable": true,
                                       "type": "literal"
                                     },
-                                    "multiply_base": {
+                                    "add_value": {
                                       "executable": true,
                                       "type": "literal"
                                     }
@@ -4455,6 +4455,65 @@
               },
               "type": "literal"
             },
+            "items": {
+              "children": {
+                "block": {
+                  "children": {
+                    "pos": {
+                      "children": {
+                        "slots": {
+                          "children": {
+                            "item_predicate": {
+                              "executable": true,
+                              "parser": "minecraft:item_predicate",
+                              "redirect": [
+                                "execute"
+                              ],
+                              "type": "argument"
+                            }
+                          },
+                          "parser": "minecraft:item_slots",
+                          "type": "argument"
+                        }
+                      },
+                      "parser": "minecraft:block_pos",
+                      "type": "argument"
+                    }
+                  },
+                  "type": "literal"
+                },
+                "entity": {
+                  "children": {
+                    "entities": {
+                      "children": {
+                        "slots": {
+                          "children": {
+                            "item_predicate": {
+                              "executable": true,
+                              "parser": "minecraft:item_predicate",
+                              "redirect": [
+                                "execute"
+                              ],
+                              "type": "argument"
+                            }
+                          },
+                          "parser": "minecraft:item_slots",
+                          "type": "argument"
+                        }
+                      },
+                      "parser": "minecraft:entity",
+                      "properties": {
+                        "amount": "multiple",
+                        "type": "entities"
+                      },
+                      "type": "argument"
+                    }
+                  },
+                  "type": "literal"
+                }
+              },
+              "type": "literal"
+            },
             "loaded": {
               "children": {
                 "pos": {
@@ -4472,7 +4531,7 @@
               "children": {
                 "predicate": {
                   "executable": true,
-                  "parser": "minecraft:resource_location",
+                  "parser": "minecraft:loot_predicate",
                   "redirect": [
                     "execute"
                   ],
@@ -5611,6 +5670,65 @@
               },
               "type": "literal"
             },
+            "items": {
+              "children": {
+                "block": {
+                  "children": {
+                    "pos": {
+                      "children": {
+                        "slots": {
+                          "children": {
+                            "item_predicate": {
+                              "executable": true,
+                              "parser": "minecraft:item_predicate",
+                              "redirect": [
+                                "execute"
+                              ],
+                              "type": "argument"
+                            }
+                          },
+                          "parser": "minecraft:item_slots",
+                          "type": "argument"
+                        }
+                      },
+                      "parser": "minecraft:block_pos",
+                      "type": "argument"
+                    }
+                  },
+                  "type": "literal"
+                },
+                "entity": {
+                  "children": {
+                    "entities": {
+                      "children": {
+                        "slots": {
+                          "children": {
+                            "item_predicate": {
+                              "executable": true,
+                              "parser": "minecraft:item_predicate",
+                              "redirect": [
+                                "execute"
+                              ],
+                              "type": "argument"
+                            }
+                          },
+                          "parser": "minecraft:item_slots",
+                          "type": "argument"
+                        }
+                      },
+                      "parser": "minecraft:entity",
+                      "properties": {
+                        "amount": "multiple",
+                        "type": "entities"
+                      },
+                      "type": "argument"
+                    }
+                  },
+                  "type": "literal"
+                }
+              },
+              "type": "literal"
+            },
             "loaded": {
               "children": {
                 "pos": {
@@ -5628,7 +5746,7 @@
               "children": {
                 "predicate": {
                   "executable": true,
-                  "parser": "minecraft:resource_location",
+                  "parser": "minecraft:loot_predicate",
                   "redirect": [
                     "execute"
                   ],
@@ -6617,6 +6735,21 @@
           "executable": true,
           "type": "literal"
         },
+        "spawnChunkRadius": {
+          "children": {
+            "value": {
+              "executable": true,
+              "parser": "brigadier:integer",
+              "properties": {
+                "max": 32,
+                "min": 0
+              },
+              "type": "argument"
+            }
+          },
+          "executable": true,
+          "type": "literal"
+        },
         "spawnRadius": {
           "children": {
             "value": {
@@ -6731,7 +6864,7 @@
                       "children": {
                         "modifier": {
                           "executable": true,
-                          "parser": "minecraft:resource_location",
+                          "parser": "minecraft:loot_modifier",
                           "type": "argument"
                         }
                       },
@@ -6753,7 +6886,7 @@
                       "children": {
                         "modifier": {
                           "executable": true,
-                          "parser": "minecraft:resource_location",
+                          "parser": "minecraft:loot_modifier",
                           "type": "argument"
                         }
                       },
@@ -6792,7 +6925,7 @@
                                       "children": {
                                         "modifier": {
                                           "executable": true,
-                                          "parser": "minecraft:resource_location",
+                                          "parser": "minecraft:loot_modifier",
                                           "type": "argument"
                                         }
                                       },
@@ -6815,7 +6948,7 @@
                                       "children": {
                                         "modifier": {
                                           "executable": true,
-                                          "parser": "minecraft:resource_location",
+                                          "parser": "minecraft:loot_modifier",
                                           "type": "argument"
                                         }
                                       },
@@ -6845,7 +6978,7 @@
                                   "executable": true,
                                   "parser": "brigadier:integer",
                                   "properties": {
-                                    "max": 64,
+                                    "max": 99,
                                     "min": 1
                                   },
                                   "type": "argument"
@@ -6885,7 +7018,7 @@
                                       "children": {
                                         "modifier": {
                                           "executable": true,
-                                          "parser": "minecraft:resource_location",
+                                          "parser": "minecraft:loot_modifier",
                                           "type": "argument"
                                         }
                                       },
@@ -6908,7 +7041,7 @@
                                       "children": {
                                         "modifier": {
                                           "executable": true,
-                                          "parser": "minecraft:resource_location",
+                                          "parser": "minecraft:loot_modifier",
                                           "type": "argument"
                                         }
                                       },
@@ -6938,7 +7071,7 @@
                                   "executable": true,
                                   "parser": "brigadier:integer",
                                   "properties": {
-                                    "max": 64,
+                                    "max": 99,
                                     "min": 1
                                   },
                                   "type": "argument"
@@ -7106,7 +7239,7 @@
                           "type": "argument"
                         }
                       },
-                      "parser": "minecraft:resource_location",
+                      "parser": "minecraft:loot_table",
                       "type": "argument"
                     }
                   },
@@ -7130,7 +7263,7 @@
                   "children": {
                     "loot_table": {
                       "executable": true,
-                      "parser": "minecraft:resource_location",
+                      "parser": "minecraft:loot_table",
                       "type": "argument"
                     }
                   },
@@ -7201,7 +7334,7 @@
                           "type": "argument"
                         }
                       },
-                      "parser": "minecraft:resource_location",
+                      "parser": "minecraft:loot_table",
                       "type": "argument"
                     }
                   },
@@ -7225,7 +7358,7 @@
                   "children": {
                     "loot_table": {
                       "executable": true,
-                      "parser": "minecraft:resource_location",
+                      "parser": "minecraft:loot_table",
                       "type": "argument"
                     }
                   },
@@ -7298,7 +7431,7 @@
                                       "type": "argument"
                                     }
                                   },
-                                  "parser": "minecraft:resource_location",
+                                  "parser": "minecraft:loot_table",
                                   "type": "argument"
                                 }
                               },
@@ -7322,7 +7455,7 @@
                               "children": {
                                 "loot_table": {
                                   "executable": true,
-                                  "parser": "minecraft:resource_location",
+                                  "parser": "minecraft:loot_table",
                                   "type": "argument"
                                 }
                               },
@@ -7385,7 +7518,7 @@
                                   "type": "argument"
                                 }
                               },
-                              "parser": "minecraft:resource_location",
+                              "parser": "minecraft:loot_table",
                               "type": "argument"
                             }
                           },
@@ -7409,7 +7542,7 @@
                           "children": {
                             "loot_table": {
                               "executable": true,
-                              "parser": "minecraft:resource_location",
+                              "parser": "minecraft:loot_table",
                               "type": "argument"
                             }
                           },
@@ -7484,7 +7617,7 @@
                                       "type": "argument"
                                     }
                                   },
-                                  "parser": "minecraft:resource_location",
+                                  "parser": "minecraft:loot_table",
                                   "type": "argument"
                                 }
                               },
@@ -7508,7 +7641,7 @@
                               "children": {
                                 "loot_table": {
                                   "executable": true,
-                                  "parser": "minecraft:resource_location",
+                                  "parser": "minecraft:loot_table",
                                   "type": "argument"
                                 }
                               },
@@ -7571,7 +7704,7 @@
                                   "type": "argument"
                                 }
                               },
-                              "parser": "minecraft:resource_location",
+                              "parser": "minecraft:loot_table",
                               "type": "argument"
                             }
                           },
@@ -7595,7 +7728,7 @@
                           "children": {
                             "loot_table": {
                               "executable": true,
-                              "parser": "minecraft:resource_location",
+                              "parser": "minecraft:loot_table",
                               "type": "argument"
                             }
                           },
@@ -7673,7 +7806,7 @@
                           "type": "argument"
                         }
                       },
-                      "parser": "minecraft:resource_location",
+                      "parser": "minecraft:loot_table",
                       "type": "argument"
                     }
                   },
@@ -7697,7 +7830,7 @@
                   "children": {
                     "loot_table": {
                       "executable": true,
-                      "parser": "minecraft:resource_location",
+                      "parser": "minecraft:loot_table",
                       "type": "argument"
                     }
                   },
@@ -7927,7 +8060,7 @@
                       "executable": true,
                       "parser": "brigadier:integer",
                       "properties": {
-                        "max": 7,
+                        "max": 20,
                         "min": 1
                       },
                       "type": "argument"
@@ -8073,6 +8206,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "block": {
@@ -8126,6 +8260,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "hostile": {
@@ -8179,6 +8314,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "master": {
@@ -8232,6 +8368,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "music": {
@@ -8285,6 +8422,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "neutral": {
@@ -8338,6 +8476,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "player": {
@@ -8391,6 +8530,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "record": {
@@ -8444,6 +8584,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "voice": {
@@ -8497,6 +8638,7 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             },
             "weather": {
@@ -8550,9 +8692,11 @@
                   "type": "argument"
                 }
               },
+              "executable": true,
               "type": "literal"
             }
           },
+          "executable": true,
           "parser": "minecraft:resource_location",
           "type": "argument"
         }
@@ -10246,6 +10390,41 @@
       "redirect": [
         "teleport"
       ],
+      "type": "literal"
+    },
+    "transfer": {
+      "children": {
+        "hostname": {
+          "children": {
+            "port": {
+              "children": {
+                "players": {
+                  "executable": true,
+                  "parser": "minecraft:entity",
+                  "properties": {
+                    "amount": "multiple",
+                    "type": "players"
+                  },
+                  "type": "argument"
+                }
+              },
+              "executable": true,
+              "parser": "brigadier:integer",
+              "properties": {
+                "max": 65535,
+                "min": 1
+              },
+              "type": "argument"
+            }
+          },
+          "executable": true,
+          "parser": "brigadier:string",
+          "properties": {
+            "type": "phrase"
+          },
+          "type": "argument"
+        }
+      },
       "type": "literal"
     },
     "trigger": {

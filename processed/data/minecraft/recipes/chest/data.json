@@ -11,7 +11,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:chest"
+    "count": 1,
+    "id": "minecraft:chest"
   },
   "type": "minecraft:crafting_shaped"
 }

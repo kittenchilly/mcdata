@@ -30,7 +30,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:melon"
+    "count": 1,
+    "id": "minecraft:melon"
   },
   "type": "minecraft:crafting_shapeless"
 }

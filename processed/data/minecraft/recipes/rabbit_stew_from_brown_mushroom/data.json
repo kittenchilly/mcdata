@@ -19,7 +19,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:rabbit_stew"
+    "count": 1,
+    "id": "minecraft:rabbit_stew"
   },
   "type": "minecraft:crafting_shapeless"
 }

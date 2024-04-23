@@ -12,6 +12,7 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:stick"
+    "count": 1,
+    "id": "minecraft:stick"
   }
 }

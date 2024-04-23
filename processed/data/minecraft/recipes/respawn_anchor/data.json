@@ -14,7 +14,8 @@
     "OOO"
   ],
   "result": {
-    "item": "minecraft:respawn_anchor"
+    "count": 1,
+    "id": "minecraft:respawn_anchor"
   },
   "type": "minecraft:crafting_shaped"
 }

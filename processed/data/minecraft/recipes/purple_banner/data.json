@@ -15,7 +15,8 @@
     " | "
   ],
   "result": {
-    "item": "minecraft:purple_banner"
+    "count": 1,
+    "id": "minecraft:purple_banner"
   },
   "type": "minecraft:crafting_shaped"
 }

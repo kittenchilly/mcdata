@@ -426,6 +426,7 @@ minecraft:green_wool
 minecraft:grindstone
 minecraft:hanging_roots
 minecraft:hay_block
+minecraft:heavy_core
 minecraft:heavy_weighted_pressure_plate
 minecraft:honey_block
 minecraft:honeycomb_block
@@ -948,6 +949,7 @@ minecraft:tuff_wall
 minecraft:turtle_egg
 minecraft:twisting_vines
 minecraft:twisting_vines_plant
+minecraft:vault
 minecraft:verdant_froglight
 minecraft:vine
 minecraft:void_air

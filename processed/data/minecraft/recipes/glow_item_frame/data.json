@@ -9,7 +9,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:glow_item_frame"
+    "count": 1,
+    "id": "minecraft:glow_item_frame"
   },
   "type": "minecraft:crafting_shapeless"
 }

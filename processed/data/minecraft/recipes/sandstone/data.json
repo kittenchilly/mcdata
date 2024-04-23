@@ -10,7 +10,8 @@
     "##"
   ],
   "result": {
-    "item": "minecraft:sandstone"
+    "count": 1,
+    "id": "minecraft:sandstone"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -6722,6 +6722,17 @@
       ]
     }
   },
+  "minecraft:heavy_core": {
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
   "minecraft:heavy_weighted_pressure_plate": {
     "default": {
       "power": "0"
@@ -14273,9 +14284,14 @@
   },
   "minecraft:trial_spawner": {
     "default": {
+      "ominous": "false",
       "trial_spawner_state": "inactive"
     },
     "properties": {
+      "ominous": [
+        "true",
+        "false"
+      ],
       "trial_spawner_state": [
         "inactive",
         "waiting_for_players",
@@ -14635,6 +14651,31 @@
   "minecraft:twisting_vines_plant": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:vault": {
+    "default": {
+      "facing": "north",
+      "ominous": "false",
+      "vault_state": "inactive"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "ominous": [
+        "true",
+        "false"
+      ],
+      "vault_state": [
+        "inactive",
+        "active",
+        "unlocking",
+        "ejecting"
+      ]
+    }
   },
   "minecraft:verdant_froglight": {
     "default": {

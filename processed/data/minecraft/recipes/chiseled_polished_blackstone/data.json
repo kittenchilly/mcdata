@@ -10,7 +10,8 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:chiseled_polished_blackstone"
+    "count": 1,
+    "id": "minecraft:chiseled_polished_blackstone"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:conduit"
+    "count": 1,
+    "id": "minecraft:conduit"
   },
   "type": "minecraft:crafting_shaped"
 }

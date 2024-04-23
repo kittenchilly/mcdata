@@ -12,7 +12,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:writable_book"
+    "count": 1,
+    "id": "minecraft:writable_book"
   },
   "type": "minecraft:crafting_shapeless"
 }

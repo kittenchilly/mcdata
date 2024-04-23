@@ -61,34 +61,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:trial_chambers/chamber/chamber_3",
-        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
-        "projection": "rigid"
-      },
-      "weight": 150
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
         "location": "minecraft:trial_chambers/chamber/chamber_4",
-        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
-        "projection": "rigid"
-      },
-      "weight": 150
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:trial_chambers/chamber/chamber_5",
-        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
-        "projection": "rigid"
-      },
-      "weight": 150
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:trial_chambers/chamber/chamber_6",
         "processors": "minecraft:trial_chambers_copper_bulb_degradation",
         "projection": "rigid"
       },
@@ -106,7 +79,34 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:trial_chambers/chamber/chamber_9",
+        "location": "minecraft:trial_chambers/chamber/assembly",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 150
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:trial_chambers/chamber/eruption",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 150
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:trial_chambers/chamber/slanted",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 150
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:trial_chambers/chamber/pedestal",
         "processors": "minecraft:trial_chambers_copper_bulb_degradation",
         "projection": "rigid"
       },

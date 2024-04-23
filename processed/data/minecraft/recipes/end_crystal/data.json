@@ -17,7 +17,8 @@
     "GTG"
   ],
   "result": {
-    "item": "minecraft:end_crystal"
+    "count": 1,
+    "id": "minecraft:end_crystal"
   },
   "type": "minecraft:crafting_shaped"
 }

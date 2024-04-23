@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:painting"
+    "count": 1,
+    "id": "minecraft:painting"
   },
   "type": "minecraft:crafting_shaped"
 }

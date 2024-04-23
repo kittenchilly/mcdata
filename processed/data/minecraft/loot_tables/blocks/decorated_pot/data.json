@@ -21,13 +21,9 @@
             {
               "functions": [
                 {
-                  "function": "minecraft:copy_nbt",
-                  "ops": [
-                    {
-                      "op": "replace",
-                      "source": "sherds",
-                      "target": "BlockEntityTag.sherds"
-                    }
+                  "function": "minecraft:copy_components",
+                  "include": [
+                    "minecraft:pot_decorations"
                   ],
                   "source": "block_entity"
                 }

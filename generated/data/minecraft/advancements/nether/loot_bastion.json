@@ -31,7 +31,8 @@
       "translate": "advancements.nether.loot_bastion.description"
     },
     "icon": {
-      "item": "minecraft:chest"
+      "count": 1,
+      "id": "minecraft:chest"
     },
     "title": {
       "translate": "advancements.nether.loot_bastion.title"

@@ -1,6 +1,20 @@
 {
   "parent": "minecraft:husbandry/breed_an_animal",
   "criteria": {
+    "minecraft:armadillo": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armadillo"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
     "minecraft:axolotl": {
       "conditions": {
         "child": [
@@ -371,7 +385,8 @@
     },
     "frame": "challenge",
     "icon": {
-      "item": "minecraft:golden_carrot"
+      "count": 1,
+      "id": "minecraft:golden_carrot"
     },
     "title": {
       "translate": "advancements.husbandry.breed_all_animals.title"
@@ -440,6 +455,9 @@
     ],
     [
       "minecraft:camel"
+    ],
+    [
+      "minecraft:armadillo"
     ],
     [
       "minecraft:turtle"

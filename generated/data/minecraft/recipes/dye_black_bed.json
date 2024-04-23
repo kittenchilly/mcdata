@@ -55,6 +55,7 @@
     ]
   ],
   "result": {
-    "item": "minecraft:black_bed"
+    "count": 1,
+    "id": "minecraft:black_bed"
   }
 }

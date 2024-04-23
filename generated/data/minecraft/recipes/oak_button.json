@@ -8,6 +8,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:oak_button"
+    "count": 1,
+    "id": "minecraft:oak_button"
   }
 }

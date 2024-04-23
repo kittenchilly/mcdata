@@ -18,7 +18,8 @@
     },
     "frame": "challenge",
     "icon": {
-      "item": "minecraft:shulker_shell"
+      "count": 1,
+      "id": "minecraft:shulker_shell"
     },
     "title": {
       "translate": "advancements.end.levitate.title"

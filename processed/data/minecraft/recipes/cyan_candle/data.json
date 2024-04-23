@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:cyan_candle"
+    "count": 1,
+    "id": "minecraft:cyan_candle"
   },
   "type": "minecraft:crafting_shapeless"
 }

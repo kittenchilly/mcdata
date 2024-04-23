@@ -10,7 +10,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:waxed_weathered_copper_door"
+    "count": 1,
+    "id": "minecraft:waxed_weathered_copper_door"
   },
   "type": "minecraft:crafting_shapeless"
 }

@@ -15,6 +15,7 @@
     "PSP"
   ],
   "result": {
-    "item": "minecraft:barrel"
+    "count": 1,
+    "id": "minecraft:barrel"
   }
 }

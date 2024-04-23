@@ -10,7 +10,8 @@
     "X X"
   ],
   "result": {
-    "item": "minecraft:diamond_boots"
+    "count": 1,
+    "id": "minecraft:diamond_boots"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -54,7 +54,8 @@
     ]
   ],
   "result": {
-    "item": "minecraft:gray_carpet"
+    "count": 1,
+    "id": "minecraft:gray_carpet"
   },
   "type": "minecraft:crafting_shapeless"
 }

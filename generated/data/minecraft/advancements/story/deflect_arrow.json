@@ -23,8 +23,8 @@
       "translate": "advancements.story.deflect_arrow.description"
     },
     "icon": {
-      "item": "minecraft:shield",
-      "nbt": "{Damage:0}"
+      "count": 1,
+      "id": "minecraft:shield"
     },
     "title": {
       "translate": "advancements.story.deflect_arrow.title"

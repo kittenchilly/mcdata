@@ -55,6 +55,7 @@
     ]
   ],
   "result": {
-    "item": "minecraft:orange_bed"
+    "count": 1,
+    "id": "minecraft:orange_bed"
   }
 }

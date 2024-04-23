@@ -394,6 +394,7 @@ minecraft:blocks\green_wool
 minecraft:blocks\grindstone
 minecraft:blocks\hanging_roots
 minecraft:blocks\hay_block
+minecraft:blocks\heavy_core
 minecraft:blocks\heavy_weighted_pressure_plate
 minecraft:blocks\honey_block
 minecraft:blocks\honeycomb_block
@@ -885,6 +886,7 @@ minecraft:blocks\tuff_wall
 minecraft:blocks\turtle_egg
 minecraft:blocks\twisting_vines
 minecraft:blocks\twisting_vines_plant
+minecraft:blocks\vault
 minecraft:blocks\verdant_froglight
 minecraft:blocks\vine
 minecraft:blocks\warped_button
@@ -1013,6 +1015,13 @@ minecraft:chests\trial_chambers\entrance
 minecraft:chests\trial_chambers\intersection
 minecraft:chests\trial_chambers\intersection_barrel
 minecraft:chests\trial_chambers\reward
+minecraft:chests\trial_chambers\reward_common
+minecraft:chests\trial_chambers\reward_ominous
+minecraft:chests\trial_chambers\reward_ominous_common
+minecraft:chests\trial_chambers\reward_ominous_rare
+minecraft:chests\trial_chambers\reward_ominous_unique
+minecraft:chests\trial_chambers\reward_rare
+minecraft:chests\trial_chambers\reward_unique
 minecraft:chests\trial_chambers\supply
 minecraft:chests\underwater_ruin_big
 minecraft:chests\underwater_ruin_small
@@ -1037,11 +1046,13 @@ minecraft:dispensers\trial_chambers\chamber
 minecraft:dispensers\trial_chambers\corridor
 minecraft:dispensers\trial_chambers\water
 minecraft:entities\allay
+minecraft:entities\armadillo
 minecraft:entities\armor_stand
 minecraft:entities\axolotl
 minecraft:entities\bat
 minecraft:entities\bee
 minecraft:entities\blaze
+minecraft:entities\bogged
 minecraft:entities\breeze
 minecraft:entities\camel
 minecraft:entities\cat
@@ -1134,6 +1145,9 @@ minecraft:entities\zombie
 minecraft:entities\zombie_horse
 minecraft:entities\zombie_villager
 minecraft:entities\zombified_piglin
+minecraft:equipment\trial_chamber
+minecraft:equipment\trial_chamber_melee
+minecraft:equipment\trial_chamber_ranged
 minecraft:gameplay\cat_morning_gift
 minecraft:gameplay\fishing
 minecraft:gameplay\fishing\fish
@@ -1152,8 +1166,13 @@ minecraft:gameplay\hero_of_the_village\mason_gift
 minecraft:gameplay\hero_of_the_village\shepherd_gift
 minecraft:gameplay\hero_of_the_village\toolsmith_gift
 minecraft:gameplay\hero_of_the_village\weaponsmith_gift
+minecraft:gameplay\panda_sneeze
 minecraft:gameplay\piglin_bartering
 minecraft:gameplay\sniffer_digging
 minecraft:pots\trial_chambers\corridor
+minecraft:shearing\bogged
+minecraft:spawners\ominous\trial_chamber\consumables
+minecraft:spawners\ominous\trial_chamber\key
 minecraft:spawners\trial_chamber\consumables
+minecraft:spawners\trial_chamber\items_to_drop_when_ominous
 minecraft:spawners\trial_chamber\key

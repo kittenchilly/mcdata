@@ -14,7 +14,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:chiseled_bookshelf"
+    "count": 1,
+    "id": "minecraft:chiseled_bookshelf"
   },
   "type": "minecraft:crafting_shaped"
 }

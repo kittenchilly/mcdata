@@ -14,7 +14,8 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:stone_sword"
+    "count": 1,
+    "id": "minecraft:stone_sword"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -10,7 +10,8 @@
     "##"
   ],
   "result": {
-    "item": "minecraft:bricks"
+    "count": 1,
+    "id": "minecraft:bricks"
   },
   "type": "minecraft:crafting_shaped"
 }

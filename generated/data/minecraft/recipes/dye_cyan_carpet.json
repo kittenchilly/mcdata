@@ -55,6 +55,7 @@
     ]
   ],
   "result": {
-    "item": "minecraft:cyan_carpet"
+    "count": 1,
+    "id": "minecraft:cyan_carpet"
   }
 }

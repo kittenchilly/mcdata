@@ -11,7 +11,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:composter"
+    "count": 1,
+    "id": "minecraft:composter"
   },
   "type": "minecraft:crafting_shaped"
 }

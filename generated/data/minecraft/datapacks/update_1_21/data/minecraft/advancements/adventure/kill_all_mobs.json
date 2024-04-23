@@ -15,6 +15,20 @@
       },
       "trigger": "minecraft:player_killed_entity"
     },
+    "minecraft:bogged": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:bogged"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
     "minecraft:breeze": {
       "conditions": {
         "entity": [
@@ -498,8 +512,8 @@
     },
     "frame": "challenge",
     "icon": {
-      "item": "minecraft:diamond_sword",
-      "nbt": "{Damage:0}"
+      "count": 1,
+      "id": "minecraft:diamond_sword"
     },
     "title": {
       "translate": "advancements.adventure.kill_all_mobs.title"
@@ -610,6 +624,9 @@
     ],
     [
       "minecraft:breeze"
+    ],
+    [
+      "minecraft:bogged"
     ]
   ],
   "rewards": {

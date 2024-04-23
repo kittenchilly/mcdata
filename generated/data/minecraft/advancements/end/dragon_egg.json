@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:dragon_egg"
-            ]
+            "items": "minecraft:dragon_egg"
           }
         ]
       },
@@ -20,7 +18,8 @@
     },
     "frame": "goal",
     "icon": {
-      "item": "minecraft:dragon_egg"
+      "count": 1,
+      "id": "minecraft:dragon_egg"
     },
     "title": {
       "translate": "advancements.end.dragon_egg.title"

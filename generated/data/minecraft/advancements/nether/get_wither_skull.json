@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:wither_skeleton_skull"
-            ]
+            "items": "minecraft:wither_skeleton_skull"
           }
         ]
       },
@@ -19,7 +17,8 @@
       "translate": "advancements.nether.get_wither_skull.description"
     },
     "icon": {
-      "item": "minecraft:wither_skeleton_skull"
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
     },
     "title": {
       "translate": "advancements.nether.get_wither_skull.title"

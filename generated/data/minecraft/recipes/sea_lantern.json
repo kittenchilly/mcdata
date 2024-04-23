@@ -15,6 +15,7 @@
     "SCS"
   ],
   "result": {
-    "item": "minecraft:sea_lantern"
+    "count": 1,
+    "id": "minecraft:sea_lantern"
   }
 }

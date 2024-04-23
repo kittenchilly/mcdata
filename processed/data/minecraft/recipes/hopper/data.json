@@ -14,7 +14,8 @@
     " I "
   ],
   "result": {
-    "item": "minecraft:hopper"
+    "count": 1,
+    "id": "minecraft:hopper"
   },
   "type": "minecraft:crafting_shaped"
 }

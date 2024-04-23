@@ -10,7 +10,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:minecart"
+    "count": 1,
+    "id": "minecraft:minecart"
   },
   "type": "minecraft:crafting_shaped"
 }

@@ -9,7 +9,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:tnt_minecart"
+    "count": 1,
+    "id": "minecraft:tnt_minecart"
   },
   "type": "minecraft:crafting_shapeless"
 }

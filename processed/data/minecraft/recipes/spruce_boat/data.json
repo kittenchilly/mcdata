@@ -11,7 +11,8 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:spruce_boat"
+    "count": 1,
+    "id": "minecraft:spruce_boat"
   },
   "type": "minecraft:crafting_shaped"
 }

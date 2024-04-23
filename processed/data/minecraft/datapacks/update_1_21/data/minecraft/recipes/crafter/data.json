@@ -20,7 +20,8 @@
     "RDR"
   ],
   "result": {
-    "item": "minecraft:crafter"
+    "count": 1,
+    "id": "minecraft:crafter"
   },
   "type": "minecraft:crafting_shaped"
 }
